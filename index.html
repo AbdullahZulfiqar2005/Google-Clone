@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-nav">
+        <button class="nav-btn" id="back-btn">&larr;</button>
+        <button class="nav-btn" id="forward-btn">&rarr;</button>
+        <input type="text" class="search-bar" placeholder="Search Google or type a URL">
+        <button class="nav-btn" id="favorite-btn">&#9733;</button>
+        <button class="nav-btn" id="more-options-btn">&#8942;</button>
+    </div>
+
+    <div class="icon-bar">
+        <div class="left-icons">
+            <div class="icon-item" data-description="Gmail">
+                <img src="icons8-gmail-48.png" alt="Gmail Icon">
+                <span>Gmail</span>
+            </div>
+            <div class="icon-item" data-description="YouTube">
+                <img src="icons8-youtube-48.png" alt="YouTube Icon">
+                <span>YouTube</span>
+            </div>
+            <div class="icon-item" data-description="Maps">
+                <img src="icons8-google-maps-48.png" alt="Maps Icon">
+                <span>Maps</span>
+            </div>
+            <div class="icon-item" data-description="WhatsApp">
+                <img src="whatsapp.png" alt="WhatsApp Icon">
+                <span>WhatsApp</span>
+            </div>
+        </div>
+        <div class="right-icons">
+            <a href="https://mail.google.com/">Gmail</a>
+            <a href="https://www.google.com/images">Images</a>
+            <img src="search lab.png" alt="Search Lab Icon" class="icon">
+            <div class="profile-pic">
+                <span class="A">A</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="google-logo">
+        <img src="google_logo.svg" alt="Google Logo">
+    </div>
+    
+    <div class="custom-search-bar">
+        <img src="search_cr23.svg" alt="Search Icon" class="search-icon">
+        <input type="text" placeholder="Search Google or type a URL" class="search-input">
+        <img src="mic.svg" alt="Voice Icon" class="voice-icon">
+        <img src="camera.png" alt="Camera Icon" class="camera-icon">
+    </div>
+
+    <div class="icon-bar-below">
+        <div class="icon-item-below" data-description="WhatsApp">
+            <img src="whatsapp.png" alt="WhatsApp">
+            <span>WhatsApp</span>
+        </div>
+        <div class="icon-item-below" data-description="LinkedIn">
+            <img src="linkedin.png" alt="LinkedIn">
+            <span>LinkedIn</span>
+        </div>
+        <div class="icon-item-below" data-description="ChatGPT">
+            <img src="chatgpt.png" alt="ChatGPT">
+            <span>ChatGPT</span>
+        </div>
+        <div class="icon-item-below" data-description="Add Shortcut">
+            <div class="circle-plus">+</div>
+            <span>Shortcut</span>
+        </div>
+    </div>
+
+    <div class="customize-chrome">
+        <p>Customize Chrome</p>
+    </div>
+    <div id="description-box"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
