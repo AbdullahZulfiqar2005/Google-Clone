@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    document.querySelectorAll(".top-nav .nav-btn, .top-nav .profile-pic img").forEach(item => {
+    document.querySelectorAll(".top-nav .nav-btn").forEach(item => {
         item.addEventListener("mouseenter", function () {
             const description = item.getAttribute("data-description");
             if (description) {
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
     document.addEventListener("DOMContentLoaded", function () {
-        const searchLabBtn = document.querySelector(".right-icons .icon");
+        const searchLabBtn = document.getElementById("#icon");
 
         searchLabBtn.addEventListener("click", function () {
             window.location.href = "https://www.google.com/labs/";
