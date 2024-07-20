@@ -7,8 +7,9 @@ document.addEventListener("DOMContentLoaded", function () {
             if (description) {
                 descriptionBox.textContent = description;
                 descriptionBox.style.display = "block";
+                descriptionBox.style.borderRadius="20%";
                 const rect = item.getBoundingClientRect();
-                descriptionBox.style.top = `${rect.top - descriptionBox.offsetHeight}px`;
+                descriptionBox.style.top = `${rect.top - descriptionBox.offsetHeight+100}px`;
                 descriptionBox.style.left = `${rect.left + (item.offsetWidth / 2) - (descriptionBox.offsetWidth / 2)}px`;
             }
         });
@@ -32,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 descriptionBox.textContent = description;
                 descriptionBox.style.display = "block";
                 const rect = item.getBoundingClientRect();
-                descriptionBox.style.top = `${rect.top - descriptionBox.offsetHeight}px`;
+                descriptionBox.style.top = `${rect.top - descriptionBox.offsetHeight+50}px`;
                 descriptionBox.style.left = `${rect.left + (item.offsetWidth / 2) - (descriptionBox.offsetWidth / 2)}px`;
             }
         });
