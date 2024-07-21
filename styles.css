@@ -14,12 +14,23 @@ body {
 .top-nav .nav-btn {
     background: none;
     border: none;
-
     font-weight: bold;
     margin-left: 7px;
 }
 
-.nav-btn:hover {
+.top-nav .nav-btn-right {
+    border-radius: 10px;
+    width: 35px;
+    background: none;
+
+border: none;
+    height: 35px;
+    background: none;  
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.nav-btn:hover, .nav-btn-right:hover {
     background-color: #e0e0e0;
 }
 
@@ -59,6 +70,10 @@ body {
     cursor: pointer;
 }
 
+.icon-bar .left-icons .icon-item {
+    border-radius: 5px;
+}
+
 .icon-bar .icon-item,
 .icon-bar .right-icons span {
     display: flex;
@@ -75,7 +90,7 @@ body {
     background-color: rgb(187, 163, 163);
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 50%;
     justify-content: center;
 }
@@ -354,10 +369,12 @@ body.dark-theme .custom-search-bar {
     background-color: #fff;
     color: rgb(60 60 60);
 }
+
 body.dark-theme .search-bar {
-    background-color:rgb(40 40 40);
+    background-color: rgb(40 40 40);
     color: #fff;
 }
+
 .icon-bar .right-icons a {
     text-decoration: none;
     color: #333;
@@ -376,10 +393,12 @@ body.dark-theme .top-nav .nav-btn {
 body.dark-theme .right-icons .circle-plus {
     color: rgb(60 60 60);
 }
-body.dark-theme .right-icons a{
+
+body.dark-theme .right-icons a {
     color: #fff;
 }
-body.dark-theme .A{
+
+body.dark-theme .A {
     border: 1px solid white;
 }
 
@@ -398,11 +417,15 @@ body.dark-theme #description-box {
 
 body.dark-theme .options-dialogue,
 body.dark-theme .shortcut-dialogue {
-    color: #333;
+    color: #ffffff;
+}
+body.dark-theme .nav-btn-right{
+    color: #ffffff;
 }
 
 .options-dialogue {
     position: absolute;
+    padding-left: 5px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -455,4 +478,3 @@ body.dark-theme .shortcut-dialogue {
 .shortcut-dialogue button:hover {
     background-color: #357ae8;
 }
-
