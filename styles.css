@@ -417,7 +417,7 @@ body.dark-theme #description-box {
 
 body.dark-theme .options-dialogue,
 body.dark-theme .shortcut-dialogue {
-    color: #ffffff;
+    color: #333;
 }
 body.dark-theme .nav-btn-right{
     color: #ffffff;
